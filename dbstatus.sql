@@ -55,12 +55,7 @@ CREATE TABLE IF NOT EXISTS `statuspostgres` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
---
--- Дамп данных таблицы `statuspostgres`
---
 
-INSERT INTO `statuspostgres` (`id`, `host`, `namesoft`, `des`, `port`, `dbname`, `user`, `pass`) VALUES
-(3, '127.0.0.1', '111', '222', '5432', 'postgres', 'postgres', 'cG9zdGdyZXM=');
 
 -- --------------------------------------------------------
 
@@ -79,16 +74,6 @@ CREATE TABLE IF NOT EXISTS `stausmysql2` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
---
--- Дамп данных таблицы `stausmysql2`
---
-
-INSERT INTO `stausmysql2` (`id`, `host`, `dbname`, `namesoft`, `des`, `user`, `pass`) VALUES
-(1, '127.0.0.1', 'dbstatus', '1', '2', 'root', ''),
-(2, '127.0.0.1', 'gost', '111', '111', 'root', ''),
-(3, '127.0.0.1', 'gost', 'www', 'ww', 'root', ''),
-(4, '127.0.0.1', 'gost', 'www', 'ww', 'root', ''),
-(7, '127.0.0.1', 'gost', 'кп сдп', '222', 'root', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
